@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 *{
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 body{
   background: #C0D23E;
@@ -63,6 +65,7 @@ a:hover{
 .btn{
   padding: 10px 15px;
   background: #A82743;
+  font-size: 17px;
   font-weight: bold;
   color: white;
   border: 4px solid white;
