@@ -3,55 +3,56 @@
   <head>
     <meta charset="utf-8">
     <title>Pandas-Flex</title>
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header class="container">
-      <section>
-        <img src="assets/img/nav.jpg">
+    <header id="inicio" class="container">
+      <section id="titulo" class="container">
+        <img src="assets/img/nav.jpg" class="imagenTitulo">
         <h1>Pandas</h1>
       </section>
-      <nav>
-        <li>INICIO</li>
-        <li>PANDAS</li>
-        <li>HISTORIA</li>
-        <li>EXTINCIÓN</li>
+      <nav class="container">
+        <a href="#inicio">INICIO</a>
+        <a href="#imagenes">PANDAS</a>
+        <a href="#historia">HISTORIA</a>
+        <a href="#extincion">EXTINCIÓN</a>
       </nav>
     </header>
     <section id="imagenes" class="container">
-      <div class="">
-        <span>&times;</span>
-        <img src="assets/img/panda1.jpg">
+      <div class="contenedorImagen">
+        <span class="cerrar">&times;</span>
+        <img src="assets/img/panda1.jpg" class="imagenPanda">
       </div>
-      <div class="">
-        <span>X</span>
-        <img src="assets/img/panda2.jpg">
+      <div class="contenedorImagen">
+        <span class="cerrar">X</span>
+        <img src="assets/img/panda2.jpg" class="imagenPanda">
       </div>
-      <div class="">
-        <span>X</span>
-        <img src="assets/img/panda3.jpg">
+      <div class="contenedorImagen">
+        <span class="cerrar">X</span>
+        <img src="assets/img/panda3.jpg" class="imagenPanda">
       </div>
-      <div class="">
-        <span>X</span>
-        <img src="assets/img/panda4.jpg">
+      <div class="contenedorImagen">
+        <span class="cerrar">X</span>
+        <img src="assets/img/panda4.jpg" class="imagenPanda">
       </div>
     </section>
     <section id="botones" class="container">
-      <button type="button">ORIGEN</button>
-      <button type="button">EXTINCIÓN</button>
-      <button type="button">RESTAURAR FOTOS</button>
+      <button type="button" class="btn">ORIGEN</button>
+      <button type="button" class="btn">EXTINCIÓN</button>
+      <button type="button" class="btn">RESTAURAR FOTOS</button>
     </section>
     <section id="texto" class="container">
-      <p id="origen">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <p id="origen" class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p id="extincion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        <p id="extincion" class="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </section>
     <footer class="container">
-      <p>Chicas Del Coro</p>
+      <p> ©Chicas Del Coro</p>
     </footer>
   </body>
 </html>

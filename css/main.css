@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  width: 100%;
+}
+#titulo{
+  width: 30%;
+  justify-content: space-around;
+}
+.imagenTitulo{
+  width: 50px;
+  height: 70px;
+}
+nav{
+  width: 70%;
+  justify-content: space-around;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
+#imagenes{
+  justify-content: space-around;
+}
+.contenedorImagen{
+  width: 23%;
+  height: 300px;
+  border: double 3px black;
+  margin: 3% 0;
+}
+.imagenPanda{
+  width: 100%;
+  height: 100%;
+}
+.cerrar{
+  position: absolute;
+  margin: 1%;
+  color: white;
+}
+#botones{
+  justify-content: space-around;
+  margin: 3%;
+
+}
+.btn{
+  padding: 10px 15px;
+}
+#texto{
+  justify-content: space-around;
+}
+.txt{
+  margin: 3%;
+  text-align: justify;
+}
+footer{
+  justify-content: center;
+}
