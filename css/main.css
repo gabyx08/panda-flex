@@ -9,7 +9,6 @@ body{
 }
 header{
   background: #E15E32;
-  width: 100%;
 }
 #titulo{
   width: 30%;
@@ -54,6 +53,9 @@ a:hover{
   color: white;
   font-size: 25px;
 }
+.cerrar:hover{
+  color: #A82743;
+}
 #botones{
   justify-content: space-around;
   margin: 2%;
@@ -82,6 +84,14 @@ a:hover{
 }
 footer{
   justify-content: center;
+  align-items: center;
   background: #5C323E;
   color: white;
+  letter-spacing: 3px;
+  margin-top: 1%;
+}
+.imgCoro{
+  width: 80px;
+  height: 60px ;
+  padding: 10px 0;
 }
